@@ -29,11 +29,12 @@ body{
 
 }
 
-.logo div{
-    background-image: url("/assets/img/vj-logo.png");
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
+header{
+    position: fixed;
+    top: 0;
+}
+
+.logo div img{
     width: 100px;
     height: 100px;
     display: flex;
@@ -76,10 +77,12 @@ body{
     cursor: pointer;
 }
 .chamada{
+    
     height: 100vh;
     width: 100%;
-    background-image: url('/assets/img/moto.jpg');
-    background-size:cover;
+    background-image: url(../img/moto.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .overlay{
     height: 100%;
@@ -103,6 +106,9 @@ body{
     font-weight: 500;
     font-size: 35px;
     width: 70%;
+}
+.chamada div a{
+    text-decoration: none;
 }
 .overlay{
     display: flex;
@@ -169,4 +175,12 @@ footer .box p{
     color: rgb(149, 149, 149);
     font-weight: 500;
     font-size: 23px;
+}
+
+.whatsapp{
+    position: fixed; 
+    bottom: 20px;    
+    right: 20px;     
+    height: 60px;
+    width: 60px;
 }
