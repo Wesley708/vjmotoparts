@@ -283,16 +283,18 @@ footer .box p{
         max-width: 100%;
     }
     .logo{
-        width: 70%;
+        width: 80%;
     }
     .mobile-menu-icon{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 30%;
+        width: 20%;
+        background-color: #A42A2D;
     }
     .mobile-menu-icon button{
         border: none;
+        background-color: #A42A2D;
     }
 
     .overlay{
@@ -308,8 +310,22 @@ footer .box p{
         font-size: 25px;
         width:100%;
     }
-    .chamada div a{
-        text-decoration: none;
+    .chamada p{
+        font-size: 25px;
+    }
+    .chamada img{
+        width: 40px;
+        height: 40px;
     }
 
+    #revisoes{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .revisoes-box{
+        width: 80%;
+        height: auto;
+        padding: 40px;
+    }
 } 
