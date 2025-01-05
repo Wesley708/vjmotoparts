@@ -246,6 +246,7 @@ footer .box p{
     color: rgb(149, 149, 149);
     font-weight: 500;
     font-size: 23px;
+    text-align: center;
 }
 
 .whatsapp{
@@ -337,6 +338,8 @@ footer .box p{
     }
     footer .box{
         width: 100%;
+        padding: 10px;
+        line-height: 1.2;
     }
 
 } 
